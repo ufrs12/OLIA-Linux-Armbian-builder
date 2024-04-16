@@ -16,5 +16,5 @@ This builder is based on [armbian/build](https://github.com/armbian/build). Esse
 apt-get -y install git
 git clone --depth=1 --branch=main https://github.com/ufrs12/OLIA-Linux-Armbian-builder
 cd OLIA-Linux-Armbian-builder
-.OLIA-Linux-Armbian-builder/build.sh
+./OLIA-Linux-Armbian-builder/build.sh
 ```
