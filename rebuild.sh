@@ -8,4 +8,4 @@ cd
 mv ./OLIA-Linux-Armbian-builder/userpatches/orpi3lts/customize-image.sh ./build/userpatches/
 
 # 3. Run Armbian build with options
-./build/compile.sh PREFER_DOCKER=no INCLUDE_HOME_DIR=yes EXPERT=yes BUILD_MINIMAL=yes BUILD_DESKTOP=no BRANCH=edge RELEASE=bookworm BOARD=orangepi3-lts KERNEL_CONFIGURE=no
+./build/compile.sh PREFER_DOCKER=no INCLUDE_HOME_DIR=yes EXPERT=yes BUILD_MINIMAL=yes BUILD_DESKTOP=no BRANCH=legacy RELEASE=bookworm BOARD=orangepi3-lts KERNEL_CONFIGURE=no
