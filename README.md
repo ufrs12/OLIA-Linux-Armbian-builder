@@ -13,10 +13,17 @@ This builder is based on [armbian/build](https://github.com/armbian/build). Esse
 - Superuser rights (configured sudo or root access).
 - Make sure your system is up-to-date!  
 
+#### Build
+
 ```bash
 apt-get -y install git
 git clone --depth=1 --branch=main https://github.com/ufrs12/OLIA-Linux-Armbian-builder
 sh ./OLIA-Linux-Armbian-builder/build.sh
 
 ```
+#### Build
 
+```bash
+sh ./OLIA-Linux-Armbian-builder/rebuild.sh
+
+```
