@@ -1,5 +1,5 @@
 # 1. Copy overlay files for use in customize-image.sh as "/tmp/overlay/"
-cp ./OLIA-Linux-Armbian-builder/overlay/network/interfaces ./build/userpatches/overlay/network/interfaces
+cp ./OLIA-Linux-Armbian-builder/orpi3lts/overlay/network/interfaces ./build/userpatches/overlay/network/interfaces
 
 # 2. Assembling file customize-image.sh and move to userpatches
 cd ./OLIA-Linux-Armbian-builder/userpatches/orpi3lts

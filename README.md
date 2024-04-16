@@ -21,7 +21,7 @@ git clone --depth=1 --branch=main https://github.com/ufrs12/OLIA-Linux-Armbian-b
 sh ./OLIA-Linux-Armbian-builder/build.sh
 
 ```
-#### Build
+#### ReBuild
 
 ```bash
 sh ./OLIA-Linux-Armbian-builder/rebuild.sh
