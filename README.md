@@ -18,7 +18,6 @@ apt-get -y install git
 git clone --depth=1 --branch=main https://github.com/ufrs12/OLIA-Linux-Armbian-builder
 cd OLIA-Linux-Armbian-builder
 ./build.sh
-cd ../
 
 ```
 
