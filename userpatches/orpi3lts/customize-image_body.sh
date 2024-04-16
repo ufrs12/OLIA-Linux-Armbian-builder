@@ -42,3 +42,4 @@
                         #git clone https://github.com/thiagoralves/OpenPLC_v3.git /home/olia/OpenPLC
                         #cd /home/olia/OpenPLC/
                         #./install.sh linux
+                        
