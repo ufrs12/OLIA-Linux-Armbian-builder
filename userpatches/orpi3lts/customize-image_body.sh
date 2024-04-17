@@ -3,7 +3,7 @@
                         cp /tmp/overlay/network/interfaces /etc/network
 
                         # Change motd (welcome message)
-                        cat /tmp/overlay/motd/logo.sh > etc/update-mot.d/12-armbian-header
+                        cat /tmp/overlay/motd/logo.sh > etc/update-motd.d/10-armbian-header
 
                         # Download Zabbix-agent
                         wget https://repo.zabbix.com/zabbix/6.0/ubuntu-arm64/pool/main/z/zabbix-release/zabbix-release_6.0-5+ubuntu22.04_all.deb
