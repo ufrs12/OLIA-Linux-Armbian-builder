@@ -1,7 +1,17 @@
-#Эти строки без комментариев вносим в соответствующий файл. Если нет bookworm, а он нужен, заменяем первый  
   
-                        # Копируем сетевые настройки из заранее подготовленного места
+                        # Copy network settings
                         cp /tmp/overlay/network/interfaces /etc/network
+
+                        # Change motd (welcome message)
+                        cat /tmp/overlay/motd/logo.sh > etc/update-mot.d/12-armbian-header
+
+                        # Download Zabbix-agent
+                        wget https://repo.zabbix.com/zabbix/6.0/ubuntu-arm64/pool/main/z/zabbix-release/zabbix-release_6.0-5+ubuntu22.04_all.deb
+                        dpkg -i zabbix-release_6.0-5+ubuntu22.04_all.deb
+                        apt update
+                        apt install zabbix-agent
+                        systemctl restart zabbix-agent
+                        systemctl enable zabbix-agent
 
                         # Удаляем файлы первичной смены пароля
                         #rm /etc/profile.d/armbian-check-first-login.sh
