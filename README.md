@@ -22,12 +22,12 @@ This builder is based on [armbian/build](https://github.com/armbian/build). Esse
 ```bash
 apt-get -y install git
 git clone --depth=1 --branch=main https://github.com/ufrs12/OLIA-Linux-Armbian-builder
-sh ./OLIA-Linux-Armbian-builder/build.sh
+sudo sh ./OLIA-Linux-Armbian-builder/build.sh
 
 ```
 #### ReBuild
 
 ```bash
-sh ./OLIA-Linux-Armbian-builder/rebuild.sh
+sudo sh ./OLIA-Linux-Armbian-builder/rebuild.sh
 
 ```
