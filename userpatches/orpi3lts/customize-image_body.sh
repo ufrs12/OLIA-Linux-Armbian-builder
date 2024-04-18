@@ -49,7 +49,10 @@
                         sudo sh -c "echo 'tmpfs           /var/log/scada  tmpfs   defaults,noatime,size=100m    0    0' >> /etc/fstab"
 
                         #Ставим OpenPLC Runtime
-                        git clone https://github.com/thiagoralves/OpenPLC_v3.git /home/olia/OpenPLC
-                        cd /home/olia/OpenPLC/
+                        sudo apt install git
+                        mkdir /var/OpenPLC
+                        git clone https://github.com/thiagoralves/OpenPLC_v3.git /var/OpenPLC
+                        cd /var/OpenPLC/
                         ./install.sh linux
+                        rm –r /var/OpenPLC/
                         
