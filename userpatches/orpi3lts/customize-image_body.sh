@@ -54,5 +54,4 @@
                         git clone https://github.com/thiagoralves/OpenPLC_v3.git /var/OpenPLC
                         cd /var/OpenPLC/
                         ./install.sh linux
-                        rm –r /var/OpenPLC/
                         
