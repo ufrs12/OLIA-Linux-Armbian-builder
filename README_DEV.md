@@ -4,7 +4,7 @@
 </p>
 
 ## Build
-'ng build --output-path docs --base-href /OLIA-Linux-Armbian-builder/'
+'ng build --output-path ../docs --base-href /OLIA-Linux-Armbian-builder/'
 
 ### Requirements for self hosted
 
